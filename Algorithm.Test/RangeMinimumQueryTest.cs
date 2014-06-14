@@ -1,13 +1,12 @@
-﻿using Algorithm;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace AlgorithmTests
+namespace Algorithm.Test
 {
     [TestClass]
     public class RangeMinimumQueryTest
     {
         [TestMethod]
-        public void FindMinimumTest()
+        public void TestFindMinimum()
         {
             var rmq = new RangeMinimumQuery();
         }
